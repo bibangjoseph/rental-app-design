@@ -1,4 +1,4 @@
-# rentalapp
+# RentalApp
 
 Application immobilière
 
