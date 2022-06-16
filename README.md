@@ -8,9 +8,8 @@ This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-Ce projet est une intégratin d'interfaces avec le Framework Flutter afin de me perfectionner avec cet outils
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Le lien vers le modèle réalisé
+
+https://dribbble.com/shots/5060124/attachments/1124270?mode=media
