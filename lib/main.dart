@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rentalapp/config/colors.dart';
 import 'package:rentalapp/screens/detail.dart';
 import 'package:rentalapp/screens/home.dart';
 import 'package:rentalapp/screens/search.dart';
@@ -17,7 +18,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.blue,
+        backgroundColor: ColorApp.bg
       ),
+      debugShowCheckedModeBanner: false,
       initialRoute: '/',
       routes: {
         '/': (context) => const HomePage(),
