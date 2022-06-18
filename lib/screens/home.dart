@@ -23,7 +23,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: ColorApp.bg,
       body: SingleChildScrollView(
         child: Container(
-          margin: const EdgeInsets.only(top: 60, left: 20, right: 20),
+          margin: const EdgeInsets.only(top: 50, left: 20, right: 20),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
@@ -44,7 +44,12 @@ class _HomePageState extends State<HomePage> {
                   ),
                   Row(
                     children: [
-                      Icon(LucideIcons.search, color: Colors.grey.shade600),
+                      IconButton(
+                          onPressed: (){
+                            Navigator.pushNamed(context, '/search');
+                          } ,
+                          icon: Icon(LucideIcons.search, color: Colors.grey.shade600)
+                      ),
                       const SizedBox(width: 15),
                       Icon(LucideIcons.bell, color: Colors.grey.shade600),
                     ],
@@ -65,7 +70,7 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
               const SizedBox(height: 10),
-              Container(
+              SizedBox(
                 width: double.infinity,
                 height: 350,
                 child: PageView.builder(
@@ -88,7 +93,7 @@ class _HomePageState extends State<HomePage> {
                 )
               ),
               const SizedBox(height: 10,),
-              Center(
+              /* Center(
                 child: SliderIndicator(
                   length: Data.homes.length,
                   indicator: const Padding(
@@ -102,7 +107,7 @@ class _HomePageState extends State<HomePage> {
                   activeIndex: _scrollPosition,
                     activeIndicator: Icon(Icons.circle, color: ColorApp.pink, size: 10),
                 ),
-              ),
+               ), */
               const SizedBox(height: 10),
               Container(
                 margin: const EdgeInsets.all(5),

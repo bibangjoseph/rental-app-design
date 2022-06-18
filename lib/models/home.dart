@@ -12,6 +12,7 @@ class Home{
   late int rate;
   late List images;
   late int reviews;
+  late int type;
 
   Home(
         {
@@ -27,7 +28,8 @@ class Home{
           required this.price,
           required this.rate,
           required this.images,
-          required this.reviews
+          required this.reviews,
+          required this.type
         }
         );
 }
